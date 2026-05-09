@@ -19,7 +19,7 @@ export default function MenuBar() {
                     <div className="flex flex-row gap-3 py-1 pl-2 rounded-r-[20px] max-w-[150px] bg-linear-to-b from-[#007d01] to-60% to-[#005603]
                                     hover:brightness-125 cursor-pointer"
                          onClick={() => setMenuOpen(prev => !prev)}>
-                        <img className='max-w-10' src='/startIcon.png' alt='start'/>
+                        <img className='max-w-10' src='/ActionIcons/startIcon.png' alt='start'/>
                         <h1 className='text-3xl font-semibold text-white italic'>Start</h1>
                     </div>
 
